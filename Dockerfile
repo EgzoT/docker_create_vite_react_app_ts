@@ -1,4 +1,4 @@
-FROM node:20
+FROM node:22
 
 COPY ./script.sh .
 RUN chmod +x /script.sh
